@@ -1,0 +1,65 @@
+body{
+    background: rgb(58, 25, 58);
+    font-family: 'Sono', sans-serif;
+}
+
+.box{
+    width: 500px;
+    height: 200px;
+    box-shadow:  0 0 1em rgb(14, 29, 61);
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+
+.container{
+    width: 750px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+@media (min-width:467.98px ) and (max-width: 991px) { 
+    .box{
+        width: 600px;
+        height:300px;
+        font-size: 4em;
+    }
+    .btns{
+        margin-top: 10px;
+    }
+
+    .btn{
+        scale: 1.2;
+    }
+ }
+
+ 
+
+ @media (min-width: 991px) and (max-width: 2399.98px) {  
+    .box{
+        width: 800px;
+        height:300px;
+        font-size: 4em;
+    }
+    .btns{
+        margin-top: 20px;
+    }
+
+    
+
+ }
+
